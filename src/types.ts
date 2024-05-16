@@ -8,6 +8,8 @@ export interface TokenInfo {
   readonly symbol: string;
   readonly logoURI?: string;
   readonly tags?: string[];
+  readonly isWhitelist?: boolean;
+  readonly tokenClass?: number;
   readonly extensions?: {
     readonly [key: string]:
       | {

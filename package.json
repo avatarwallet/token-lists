@@ -1,12 +1,7 @@
 {
-  "name": "@uniswap/token-lists",
-  "author": {
-    "name": "Uniswap Labs",
-    "email": "contact@uniswap.org",
-    "url": "https://uniswap.org"
-  },
+  "name": "@xeiswap/token-lists",
   "description": "📚 The Token Lists specification",
-  "version": "1.0.0-beta.34",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,10 +11,6 @@
   ],
   "engines": {
     "node": ">=10"
-  },
-  "repository": {
-    "url": "https://github.com/Uniswap/token-lists",
-    "type": "git"
   },
   "scripts": {
     "start": "tsdx watch",
